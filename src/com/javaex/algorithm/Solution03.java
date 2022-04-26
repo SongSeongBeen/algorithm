@@ -12,7 +12,7 @@ public class Solution03 {
 			while(min <= max) {
 				
 				final int mid = (min +max) /2;
-				int sum = IntStream.of(budgets)
+				long sum = IntStream.of(budgets)
 					.map(b -> Math.min(b,mid))
 					.sum();
 					
