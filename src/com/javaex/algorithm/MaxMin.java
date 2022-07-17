@@ -19,4 +19,5 @@ public class MaxMin {
 	        System.out.printf("%d %d", min, max);
 	    }
 
+	 
 }
